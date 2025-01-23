@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/situ.css" type="text/css" rel="stylesheet">
+        <title>Who?</title>
+
+        <script>
+function checkAndRedirect() {
+            var inputText = document.getElementById("userInput").value;
+            var targetWord = "둘 다";  // 이 단어가 포함되면 페이지 이동
+
+            if (inputText.includes(targetWord)) {
+                window.location.href = "situ1-2.html"; // 해당 단어가 포함되면 다음페이지로 이동
+            } else {
+                alert("사람을 파악하는 능력이 부족하구나. 다시 생각해봐.");
+            }
+        }
+        </script>
+    </head>
+
+    <body>
+        <div class="contents">
+            <h1>네가 찾는 것은 네게 호의적일까 적대적일까 둘 다 아닐까?</h1>
+        <div class="sq">
+            <label for="userInput">답변:</label>
+        <input type="text" id="userInput" placeholder="한국어 입력">
+        <button onclick="checkAndRedirect()">확인</button>
+        </div>
+
+        </div>
+
+    </body>
+</html>

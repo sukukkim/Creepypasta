@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>언어 입력 후 이동</title>
+    <script>
+        function redirectToPage() {
+            var language = document.getElementById("language").value;
+            if (language === "English") {
+                window.location.href = "english_page.html"; // 영어 페이지로 이동
+            } else if (language === "Korean") {
+                window.location.href = "korean_page.html"; // 한국어 페이지로 이동
+            } else {
+                alert("지원되지 않는 언어입니다.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>언어를 선택하고 이동하세요</h1>
+    <label for="language">언어 선택:</label>
+    <input type="text" id="language" placeholder="영어 또는 한국어 입력">
+    <button onclick="redirectToPage()">이동</button>
+</body>
+</html>

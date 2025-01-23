@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/situ.css" type="text/css" rel="stylesheet">
+        <title>What?</title>
+
+        <script>
+function checkAndRedirect() {
+            var inputText = document.getElementById("userInput").value;
+            var targetWord = "키보드";  // 이 단어가 포함되면 페이지 이동
+
+            if (inputText.includes(targetWord)) {
+                window.location.href = "situ2-1.html"; // 해당 단어가 포함되면 다음페이지로 이동
+            } else {
+                alert("정답은 컴퓨터와 함께 붙어다녀.");
+            }
+        }
+        </script>
+    </head>
+
+    <body>
+        <div class="contents">
+            <h1>어디에 있는 것일까?</h1>
+        <div class="sq">
+            <label for="userInput">답변:</label>
+        <input type="text" id="userInput" placeholder="한국어 입력">
+        <button onclick="checkAndRedirect()">확인</button>
+        </div>
+
+        </div>
+
+    </body>
+</html>
