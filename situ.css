@@ -1,0 +1,47 @@
+@charset "utf-8";
+* {
+    font-family: "맑은 고딕";
+    color: black;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.contents {
+    width: 100%;
+    height: 945px;
+    background-color: black;
+
+}
+
+.contents h1 {
+    color: aliceblue;
+    font-family: "Mapo꽃섬";
+    font-weight: normal;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.sq {
+
+    width: 250px;
+    padding-top: 200px;
+}
+
+.sq label {
+    color: azure;
+}
+
+.code {
+    width: 300px;
+    
+}
+
+.code p {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 400px;
+    font-size: 25px;
+    font-family: "G마켓 산스";
+    font-weight: lighter;
+}

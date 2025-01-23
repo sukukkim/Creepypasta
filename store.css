@@ -1,0 +1,72 @@
+@charset "utf-8";
+* {
+    font-family: "PF스타더스트";
+    color: black;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+#bodywrap {
+    width: 100%;
+}
+
+.contents {
+    background-color: black;
+    width: 100%;
+    height: 950px;
+}
+
+.img {
+    padding-top: 30px;
+    width: 800px;
+    height: 300px;
+    padding-left: 50px;
+}
+.img img {
+    width: 800px;
+    height: 300px;
+}
+
+.Q {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.Q li {
+    padding-left: 20px;
+    line-height: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #da000b;
+    text-align: center;
+}
+
+.A {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.A li {
+    padding-left: 20px;
+    line-height: 30px;
+    height: 50px;
+    width: 150PX;
+}
+.A li>a{
+    float: left;
+    display: block;
+    font-size: 16px;
+    color: aliceblue;
+    text-align: center;
+}
+.A li a:hover {
+    font-weight: bold;
+    color: rgb(0, 17, 255);
+}

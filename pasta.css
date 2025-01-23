@@ -1,0 +1,240 @@
+@charset "utf-8";
+* {
+    font-family: "맑은 고딕";
+    color: black;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #881C21;
+}
+
+.wrap {
+    width: 1200px;
+}
+#bodywrap {
+    background-color: #ebebeb;
+}
+
+.logo {
+    float: left;
+    width: 250px;
+    height: 100px;
+}
+
+.logo img {
+    float: left;
+    width: 200px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#menu_bg {
+    width: 1200px;
+    height: 90px;
+    position: absolute;
+    display: none;
+    z-index: 2;
+    top: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    float: right;
+    width: 800px;
+    height: 100px;
+    z-index: 1;
+}
+
+.navi {
+    float: right;
+    margin-top: 50px;
+    margin-right: 0px;
+}
+.navi>li {
+    float: left;
+}
+.navi>li>a {
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #881C21;
+    color: #ffffff;
+}
+.navi>li>a:hover {
+    background-color: aliceblue;
+    color: #881C21;
+}
+
+.submenu {
+    width: 180px;
+    height: 160px;
+    position: absolute;
+    display: none;
+    z-index: 3;
+}
+.submenu>li>a {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(231, 231, 231);
+}
+.submenu>li>a:hover {
+    background-color: rgb(136, 4, 4);
+    color: aliceblue;
+}
+
+
+#wrapper {
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 100px;
+}
+
+.notice {
+    width: 100%;
+    height: 1600px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 100px;
+    color: #333333;
+    background-color: #ffffff;
+}
+.pasta {
+    width: 100%;
+    height: 300px;
+    color: #333333;
+    background-color: #ffffff;
+}
+.pasta h4 {
+    font-weight: bolder;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 30px;
+}
+.pasta ul {
+    display: block;
+    width: 450px;
+}
+.pasta li {
+    padding-top: 20px;
+    line-height: 20px;
+}
+.pasta li h3 {
+    font-size: 10px;
+    text-align: center;
+    color: #881C21;
+    font-weight: bolder;
+}
+.hon {
+    width: 100%;
+    height: 500px;
+    color: #333333;
+    background-color: #ffffff;
+}
+.hon h4 {
+    font-weight: 100;
+    line-height: 30px;
+    padding-top: 20px;
+    font-size: 25px;
+    background-color: #881C21;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+.hon ul {
+    display: block;
+    width: 450px;
+}
+.hon li {
+    padding-top: 20px;
+    line-height: 20px;
+}
+.hon li h3 {
+font-family: "을유1945";
+font-weight: normal;
+}
+.hon li h3 b {
+    font-family: "을유1945";
+}
+.hon li h2 {
+    font-family: "Galmuri9";
+    font-weight: lighter;
+    font-size: 13px;
+}
+.hon li h5 {
+    font-weight: normal;
+    font-family: "Galmuri9";
+    font-size: 10px;
+    color: rgb(102, 255, 0);
+}
+
+/*하단 푸터 영역*/
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #CCCCCC;
+    position: relative;
+    transform: translateY(0%);
+    border-top: 1px;
+}
+
+.copy {
+    float: left;
+    width: 550px;
+    height: 100px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 100px;
+    color: #ffffff;
+}
+.unknown {
+    float: right;
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+}
+.unknown ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.unknown li {
+    display: inline-block;
+}
+.unknown img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+.unknown img:hover {
+    opacity: 0.5;
+}
+
+.site {
+    float: right;
+    width: 400px;
+    height: 100px;
+}
+
+.unknown {
+    float: right;
+    width: 400px;
+    height: 50px;
+}
